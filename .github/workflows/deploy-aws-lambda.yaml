@@ -1,9 +1,7 @@
 name: deploy-aws-lambda
 
-on:
-  push:
-    branches:
-      - master
+on: [workflow_dispatch]
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
