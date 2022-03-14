@@ -1,1 +1,11 @@
 pyjokes
+boto3
+botocore
+jmespath
+PyJWT
+python-dateutil
+s3transfer
+six
+urllib3
+requests
+pydantic
