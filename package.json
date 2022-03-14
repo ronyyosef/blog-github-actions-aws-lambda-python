@@ -1,13 +1,13 @@
 {
-  "name": "blog-github-actions-aws-lambda-python",
-  "description": "",
-  "version": "0.1.0",
-  "dependencies": {},
+  "devDependencies": {
+    "serverless": "^1.67.0",
+    "serverless-domain-manager": "^6.0.2",
+    "serverless-plugin-stage-variables": "^1.10.1",
+    "serverless-python-requirements": "^5.1.0"
+  },
   "scripts": {
     "deploy": "serverless deploy"
   },
-  "devDependencies": {
-    "serverless": "^1.67.0",
-    "serverless-python-requirements": "^5.1.0"
+  "dependencies": {
   }
 }
