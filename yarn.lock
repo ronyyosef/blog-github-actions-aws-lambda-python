@@ -474,6 +474,21 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
+aws-sdk@^2.1113.0:
+  version "2.1116.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1116.0.tgz#1187ab943e6bf730db282afe7950dd2af409cb5b"
+  integrity sha512-36JFrxPPh/fRQWsgGrZZbzTxRu7dq4KyCKKXPxgVMXylEJsG/KEAVMB1f3eq4PiI5eGxYrpt2OkKoMQZQZLjPA==
+  dependencies:
+    buffer "4.9.2"
+    events "1.1.1"
+    ieee754 "1.1.13"
+    jmespath "0.16.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    uuid "3.3.2"
+    xml2js "0.4.19"
+
 aws-sdk@^2.642.0:
   version "2.650.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.650.0.tgz#edf995cf2805c918d7470a652f1316ae902c5aa4"
@@ -611,6 +626,15 @@ buffer@4.9.1:
   version "4.9.1"
   resolved "https://registry.yarnpkg.com/buffer/-/buffer-4.9.1.tgz#6d1bb601b07a4efced97094132093027c95bc298"
   integrity sha1-bRu2AbB6TvztlwlBMgkwJ8lbwpg=
+  dependencies:
+    base64-js "^1.0.2"
+    ieee754 "^1.1.4"
+    isarray "^1.0.0"
+
+buffer@4.9.2:
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-4.9.2.tgz#230ead344002988644841ab0244af8c44bbe3ef8"
+  integrity sha512-xq+q3SRMOxGivLhBNaUdC64hDTQwejJ+H0T/NB1XMtTVEwNTrfFF3gAxiyW0Bu/xWEGhjVKgUcMhCrUy2+uCWg==
   dependencies:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
@@ -754,6 +778,11 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+class.extend@^0.9.2:
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/class.extend/-/class.extend-0.9.2.tgz#e1cbda3697cb31d3cdab1c001d269075c9031f78"
+  integrity sha1-4cvaNpfLMdPNqxwAHSaQdckDH3g=
 
 cli-boxes@^1.0.0:
   version "1.0.0"
@@ -2407,6 +2436,11 @@ jmespath@0.15.0:
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.15.0.tgz#a3f222a9aae9f966f5d27c796510e28091764217"
   integrity sha1-o/Iiqarp+Wb10nx5ZRDigJF2Qhc=
 
+jmespath@0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.16.0.tgz#b15b0a85dfd4d930d43e69ed605943c802785076"
+  integrity sha512-9FzQjJ7MATs1tSpnco1K6ayiYE3figslrXA72G2HQ/n76RzvYlofyi5QM+iX4YRs/pu3yzxlVQSST23+dMDknw==
+
 js-yaml@^3.13.1, js-yaml@^3.8.3:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
@@ -2583,6 +2617,11 @@ lodash@4.17.x, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.1
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
 log@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/log/-/log-6.0.0.tgz#1e8e655f0389148e729d9ddd6d3bcbe8b93b8d21"
@@ -2732,9 +2771,9 @@ minimatch@^3.0.2, minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 mixin-deep@^1.2.0:
   version "1.3.2"
@@ -3544,6 +3583,21 @@ semver@^6.1.1, semver@^6.2.0, semver@^6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
+
+serverless-domain-manager@^6.0.2:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/serverless-domain-manager/-/serverless-domain-manager-6.0.3.tgz#1a19fb2b9ff7d8542c0c891bf4d57e8f4b1f70d6"
+  integrity sha512-vwIhxaUpAf32I3fxuY0gHoZKHlPmWXZQZPfbN3kRz7UIo6j7Zf+FlL4dUm5JYWz7B2gPEz1ZPW9mBtPeAVbEAg==
+  dependencies:
+    aws-sdk "^2.1113.0"
+
+serverless-plugin-stage-variables@^1.10.1:
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/serverless-plugin-stage-variables/-/serverless-plugin-stage-variables-1.10.1.tgz#b6ebb7d01c1b7f3b0cfe793b6aabd82ef2f89d4e"
+  integrity sha512-f+q6hKQONJBL6ewN5U7X6gTQ8ErMweHJ1EyKOT6/stiXDojo8lDFD7NVpKI4trmJRTwJxfT2/fBSp9zUfous4Q==
+  dependencies:
+    class.extend "^0.9.2"
+    lodash "^4.17.21"
 
 serverless-python-requirements@^5.1.0:
   version "5.1.0"
